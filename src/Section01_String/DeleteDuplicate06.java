@@ -9,6 +9,8 @@ import java.util.Scanner;
  */
 public class DeleteDuplicate06 {
     //김민수 제출
+    //Set List 차이 확인하기.
+    //Set 중복 불가하게.
     public static String solution(String str) {
         String answer="";
         for(int i = 0; i < str.length(); i++) {

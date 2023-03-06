@@ -38,6 +38,8 @@ public class Palindrome07 {
          * }
          * return answer;
          *
+         * equalsIgnoreCase
+         *
          * str의 절반만 for문을 돌려서 처음과 끝을 비교.
          */
         return answer;
