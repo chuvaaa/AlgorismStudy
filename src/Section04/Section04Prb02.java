@@ -36,6 +36,7 @@ public class Section04Prb02 {
         for (Character key : map1.keySet()) {
             if(!map1.get(key).equals(map2.get(key))){
                 answer = "NO";
+                break;
             }
         }
 
